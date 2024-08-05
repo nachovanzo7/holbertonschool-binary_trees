@@ -148,5 +148,5 @@ int main() {
     return 0;
 }
 
-# Conclusión
+CONCLUSIÓN
 Los árboles binarios son una estructura de datos fundamental en la informática, con aplicaciones que van desde la representación de datos jerárquicos hasta la implementación de algoritmos de búsqueda y ordenación eficientes. Comprender sus propiedades y operaciones básicas es esencial para cualquier programador o científico de datos.
