@@ -4,7 +4,7 @@
 #include "binary_trees.h"
 
 /**
- *binary_tree_size - Calcula el tama√o de un nodo
+ *medir2 - Calcula el tama√o de un nodo
  *Return: retorna la longitud
  *@tree: puntero al nodo
  */
