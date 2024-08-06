@@ -23,7 +23,7 @@ size_t medir(const binary_tree_t *tree)
 }
 
 /**
- *binary_tree_height - Calcular cantidad de niveles de un nodo
+ *binary_tree_depth - Calcular cantidad de niveles de un nodo
  *Return: retorna la longitud
  *@tree: puntero al nodo para calcular cantidad de niveles hacia arriba
  */
