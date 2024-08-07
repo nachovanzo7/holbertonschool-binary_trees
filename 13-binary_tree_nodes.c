@@ -12,14 +12,14 @@
 size_t medir3(const binary_tree_t *tree)
 {
 	size_t a, b;
-  if (tree->left == NULL && tree->right == NULL)
-    return (0);
 	if (tree == NULL)
-		return (0);
+	  return (0);
+	if (tree->left == NULL && tree->right == NULL)
+    return (0);
 
-	a = 1 + medir2(tree->left);
+	a = 1 + medir3(tree->left);
 
-	b = 1 + medir2(tree->right);
+	b = 1 + medir3(tree->right);
 
 	return (a + b);
 }
@@ -34,5 +34,5 @@ size_t binary_tree_nodes(const binary_tree_t *tree)
 	if (tree == NULL)
 		return (0);
 
-	return (medir2(tree) / 2);
+	return (medir3(tree) / 2);
 }
